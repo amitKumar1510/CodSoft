@@ -1,0 +1,296 @@
+body{
+    background: #0F2027;
+}
+p{
+  font-size: 15px;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+/* Header */
+.nav {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #888888;
+    align-items: stretch;
+    z-index: 1;
+    background: #2C5364;
+  }
+  
+  .header_logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Logo_link {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color:#89cdec;
+  }
+  
+  .header_menu {
+    height: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color:#89cdec;
+  }
+  
+  .menu:hover {
+    color:#11adf6;
+    text-shadow: 5px 5px 10px #0cb8f1;
+    font-weight: bold;
+  }
+  
+  /* About */
+  #about {
+    padding-top: 100px;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    color:white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+  .about_div1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .about_div1_info{
+    height:100%;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .about_div1_name{
+    height:100%;
+    width:300px;
+  }
+  .about_div1_name>p{
+    font-size:50px;
+    font-weight: bold;
+    text-align:center;
+    color:white;
+  }
+  .about_div1_info>h1{
+    text-align:center;
+    color:white;
+    margin:40px 0;
+  }
+  span{
+    color:#89cdec;
+  }
+  .about_div1_info>button,#resumeDown{
+    height:60px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius: 20px;
+    border:none;
+    color:white;
+    margin:50px 0;  
+    background-color:#89cdec; 
+  }
+
+.about_div2{
+    width:100%;
+    height:100%;
+}
+.about_div2_header_text,
+.edu_header,
+.skills_header,
+.projects_header,
+.resume_header,
+.contact_header{
+    width:100%;
+    height:80px;
+    text-align:center;
+    color: #2C5364;
+    padding:20px 0;
+    border-bottom:2px solid black;
+    background-color:#89cdec;
+}
+.about_div2_container{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.about_div2_info{
+    width:40%;
+    height:100%;
+    padding:50px;
+}
+
+.about_div2_pic{
+    width:30%;
+    height:80%;
+    padding:50px;
+}
+.container_gif{
+  width:100%;
+  height:400px;
+  background-image: url('proj-2.gif');
+  background-size: cover;
+}
+
+.about_div2_prof_img{
+  width:100%;
+  height:100%;
+  border-radius:10px;
+}
+.social_icons{
+    width:100%;
+    height:100px; 
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+
+.social_icons_img{
+    width:40px;
+    height:40px; 
+}
+#education,
+#skills,
+#projects,
+#resume,
+#contact{
+    width:100%;
+    height:100%;
+    margin-bottom:20px;
+    color:white;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+}
+.edu_info,
+.skills_info,
+.projects_info,
+.resume_info,
+.contact_info{
+    margin:100px 0;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.masters,
+.bachelors,
+.eduImg,
+.skill_div,
+.project_info_div,
+.contect_info_div1,
+.contect_info_div2{
+    margin:-4% 0 5% 0;
+    width:40%;
+    height:100%;
+    padding:20px;
+}
+.eduImg{
+  width:20%;
+}
+.eduImg img{
+  height:400px;
+  padding-left:20%;
+}
+progress{
+    width:500px;
+    display:inline;
+    margin-right: 10px;
+    color:#89cdec;
+  }
+.skill_div>div{
+    display:flex;
+    flex-direction:row;
+    padding:0px 0px 30px 0;
+
+}
+label{
+    font-size:20px;
+}
+.resume_info{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.resume_info>img{
+    margin-left:25%;
+    width:60%;
+    height:100%;
+    border-radius: 10pc;
+}
+#resumeDown{
+  margin-left:40%;
+}
+.contect_info_div1{
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+input{
+    width:77%;
+    height:40px;
+
+}
+.social{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:flex-start;
+    gap:40px;
+
+}
+.icon_img{
+    height:30px;
+    width:30px;
+}
+input[type=submit]{
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color:#89cdec ;
+}
+footer{
+  color:white;
+  font-size:20px;
+  font-weight: bold;
+  display:flex;
+  justify-content:space-between;
+  padding:0 6%;
+}
+.link>a{
+  font-size:15px;
+
+}
+
